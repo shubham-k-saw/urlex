@@ -1,0 +1,35 @@
+{
+  "name": "urlex",
+  "version": "1.0.0",
+  "description": "A lightweight package to identify and extract URLs from text.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "default": "./index.js"
+    },
+    "./update": {
+      "import": "./update.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham-k-saw/urlex.git"
+  },
+  "keywords": [
+    "url",
+    "uri",
+    "link",
+    "tld"
+  ],
+  "author": "Shubham Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shubham-k-saw/urlex/issues"
+  },
+  "homepage": "https://github.com/shubham-k-saw/urlex#readme"
+}
